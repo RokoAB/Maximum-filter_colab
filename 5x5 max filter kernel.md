@@ -1,5 +1,7 @@
 ##5x5 max filter kernel
 #using opencv
+
+
 %%writefile test.cu
 #include <stdio.h>
 #include <stdlib.h>
