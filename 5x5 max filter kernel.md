@@ -3,9 +3,9 @@
 
 
 %%writefile test.cu
-#include <stdio.h>
-#include <stdlib.h>
-#include <opencv2/opencv.hpp>
+//#include <stdio.h>
+//#include <stdlib.h>
+//#include <opencv2/opencv.hpp>
 using namespace cv;
 __global__ void max_filter_5x5(const uchar* input, uchar* output, int width, int height) {
     int x = blockIdx.x * blockDim.x + threadIdx.x;
